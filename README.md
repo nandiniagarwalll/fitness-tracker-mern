@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Fitness Tracker (MERN Stack)
+The Fitness Tracker is a web application designed to help users monitor and manage their fitness activities effectively. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), this project provides a seamless experience for tracking various exercises and calculating calories burned based on user input.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Key Features
+Activity Tracking: Users can log activities such as walking, running, swimming, and meditation.
+Calorie Calculation: The application automatically calculates calories burned based on user-entered parameters like distance or duration.
+Personalized Dashboard: Each user has a personalized dashboard displaying their activity summaries and progress over time.
+User Authentication: Secure user authentication system to protect user data and ensure privacy.
+Responsive Design: Mobile-friendly interface allowing users to track activities from any device.
 
-## Available Scripts
+# Getting Started
+To run the Fitness Tracker locally, follow these steps:
 
-In the project directory, you can run:
+# Prerequisites
+Node.js installed on your local machine.
+MongoDB database setup or MongoDB Atlas account.
 
-### `npm start`
+# Installation
+Clone the repository:
+git clone https://github.com/your_username/fitness-tracker-mern.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Navigate into the project directory:
+cd fitness-tracker-mern
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install dependencies:
+npm install
 
-### `npm test`
+Start the backend server:
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the frontend development server:
+cd client
+npm start
 
-### `npm run build`
+# Usage
+Register or Log In: Create a new account or log in with existing credentials.
+Track Activities: Choose an activity (walking, running, swimming, meditation) and enter relevant details (distance, duration).
+View Dashboard: See a summary of your activities, calories burned, and motivational quotes for each logged session.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Screenshots and Demo:
+![Screenshot 2024-06-17 123127](https://github.com/nandiniagarwalll/fitness-tracker-mern/assets/172013237/174d0024-5188-473e-965f-11a65722bbc1)
+![Screenshot 2024-06-17 123139](https://github.com/nandiniagarwalll/fitness-tracker-mern/assets/172013237/c25880ff-af70-409e-a9cc-e3eae1ff8a40)
+![Screenshot 2024-06-17 123152](https://github.com/nandiniagarwalll/fitness-tracker-mern/assets/172013237/be78a189-4a18-40d0-b234-d4d76734755c)
+https://github.com/nandiniagarwalll/fitness-tracker-mern/assets/172013237/869163ef-6d38-4ce1-9f94-63d926a40857
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
